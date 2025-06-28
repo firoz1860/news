@@ -1,0 +1,111 @@
+
+.newsContainer {
+  padding-top: 5rem;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.header {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: #64748b;
+  font-size: 1.125rem;
+}
+
+.errorContainer {
+  max-width: 28rem;
+  margin: 0 auto 2rem;
+}
+
+.errorCard {
+  background-color: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.errorTitle {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #991b1b;
+  margin-bottom: 0.25rem;
+}
+
+.errorMessage {
+  font-size: 0.875rem;
+  color: #b91c1c;
+  margin: 0;
+}
+
+.noArticlesContainer {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.noArticlesCard {
+  max-width: 28rem;
+  margin: 0 auto;
+}
+
+.noArticlesTitle {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+}
+
+.noArticlesMessage {
+  color: #64748b;
+  margin: 0;
+}
+
+.endMessage {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.endMessageText {
+  color: #64748b;
+  font-weight: 500;
+  margin: 0;
+}
+
+.articlesGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .articlesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .articlesGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1280px) {
+  .articlesGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

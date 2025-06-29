@@ -2,6 +2,8 @@
   "name": "newsapp",
   "version": "0.1.0",
   "private": true,
+"proxy": "http://localhost:5000",
+
  
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -46,4 +48,4 @@
     "postcss": "^7.0.39",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   }
-}
+} 

@@ -1,0 +1,22 @@
+{
+  "name": "news-backend",
+  "version": "1.0.0",
+  "description": "Express backend to proxy News API requests",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --no-deprecation server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
